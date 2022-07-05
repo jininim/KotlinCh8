@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "kotlin_0704"
-include ':app'
+include ':ch8'
 include ':ch9'
