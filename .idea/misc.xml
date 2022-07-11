@@ -11,9 +11,18 @@
         <entry key="..\:/Users/lee/.gradle/caches/transforms-3/8a39463ca7a3527efd979299126c223b/transformed/appcompat-1.4.2/res/drawable/abc_list_selector_holo_light.xml" value="0.283" />
         <entry key="..\:/Users/lee/.gradle/caches/transforms-3/8a39463ca7a3527efd979299126c223b/transformed/appcompat-1.4.2/res/drawable/abc_text_cursor_material.xml" value="0.283" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/ch10/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/ch10/src/main/res/layout/fragment_blank.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/ch10/src/main/res/menu/menu_main.xml" value="0.25" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/ch9/src/main/res/drawable/round_button.xml" value="0.283" />
-        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/ch9/src/main/res/layout-land/activity_main.xml" value="0.9371657754010695" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/ch9/src/main/res/layout-land/activity_main.xml" value="0.3029411764705882" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/ch9/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/recyeclerview/src/main/res/layout/activity_main.xml" value="0.33242753623188404" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/recyeclerview/src/main/res/layout/item_main.xml" value="0.33242753623188404" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/viewpager2/src/main/res/layout/activity_main.xml" value="0.33242753623188404" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/viewpager2/src/main/res/layout/fragment_one.xml" value="0.33242753623188404" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/viewpager2/src/main/res/layout/fragment_three.xml" value="0.33242753623188404" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/viewpager2/src/main/res/layout/fragment_two.xml" value="0.1" />
         <entry key="..\:/Users/lee/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/ab_solid_shadow_material.xml" value="0.283" />
         <entry key="..\:/Users/lee/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout-car/car_alert_dialog_button_bar.xml" value="0.33" />
       </map>

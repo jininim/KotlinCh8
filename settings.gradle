@@ -15,3 +15,6 @@ dependencyResolutionManagement {
 rootProject.name = "kotlin_0704"
 include ':ch8'
 include ':ch9'
+include ':fragment'
+include ':recyeclerview'
+include ':viewpager2'
