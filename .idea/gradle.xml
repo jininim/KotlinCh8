@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ch11_jetpact" />
             <option value="$PROJECT_DIR$/ch8" />
             <option value="$PROJECT_DIR$/ch9" />
             <option value="$PROJECT_DIR$/fragment" />
