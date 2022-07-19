@@ -10,11 +10,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/appbar" />
             <option value="$PROJECT_DIR$/ch11_jetpact" />
+            <option value="$PROJECT_DIR$/ch12" />
             <option value="$PROJECT_DIR$/ch8" />
             <option value="$PROJECT_DIR$/ch9" />
+            <option value="$PROJECT_DIR$/diceroller" />
+            <option value="$PROJECT_DIR$/diceroller2" />
             <option value="$PROJECT_DIR$/fragment" />
             <option value="$PROJECT_DIR$/recyeclerview" />
+            <option value="$PROJECT_DIR$/tablayout" />
             <option value="$PROJECT_DIR$/viewpager2" />
           </set>
         </option>
