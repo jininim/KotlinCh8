@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/affirmations" />
             <option value="$PROJECT_DIR$/appbar" />
             <option value="$PROJECT_DIR$/ch11_jetpact" />
             <option value="$PROJECT_DIR$/ch12" />
