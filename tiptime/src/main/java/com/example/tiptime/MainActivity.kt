@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun calculateTip() {
         // 서비스 비용 가져오기
-        val stringInTextField = binding.costOfService.text.toString()
-        val cost = stringInTextField.toDouble()
+        val stringInTextField = binding.costOfServiceEditText.text.toString()
+        val cost = stringInTextField.toDoubleOrNull()
         //팁 비율 가져오기
         val tipPercentage = when (binding.tipOptions.checkedRadioButtonId){
             R.id.option_twenty_percent -> 0.20
@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             else -> 0.15
         }
         //팁 계산 및 반올림 하기
-        var tip = tipPercentage * cost
+        var tip = tipPercentage * cost!!
         val roundUp = binding.roundUpSwitch.isChecked
         if ( roundUp){
             tip = kotlin.math.ceil(tip)

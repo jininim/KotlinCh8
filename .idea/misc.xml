@@ -32,7 +32,7 @@
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/recyeclerview/src/main/res/layout/activity_main.xml" value="0.33242753623188404" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/recyeclerview/src/main/res/layout/item_main.xml" value="0.33242753623188404" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/tablayout/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/tiptime/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/tiptime/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/viewpager2/src/main/res/layout/activity_main.xml" value="0.33242753623188404" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/viewpager2/src/main/res/layout/fragment_one.xml" value="0.33242753623188404" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/viewpager2/src/main/res/layout/fragment_three.xml" value="0.33242753623188404" />
@@ -42,7 +42,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
