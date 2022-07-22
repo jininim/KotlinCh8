@@ -39,10 +39,10 @@
         android:src="@drawable/ic_service"
         app:layout_constraintBottom_toBottomOf="@+id/service_question"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/service_question"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="@+id/service_question" />
 
     <TextView
+        style="@style/Widget.TipTime.TextView"
         android:id="@+id/service_question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,18 +61,21 @@
         app:layout_constraintTop_toBottomOf="@+id/service_question">
 
         <RadioButton
+            style="@style/Widget.TipTime.CompoundButton.RadioButton"
             android:id="@+id/option_twenty_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/amazing_20" />
 
         <RadioButton
+            style="@style/Widget.TipTime.CompoundButton.RadioButton"
             android:id="@+id/option_eighteen_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/good_18" />
 
         <RadioButton
+            style="@style/Widget.TipTime.CompoundButton.RadioButton"
             android:id="@+id/option_fifteen_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -90,6 +93,7 @@
         app:layout_constraintTop_toTopOf="@+id/round_up_switch" />
 
     <com.google.android.material.switchmaterial.SwitchMaterial
+        style="@style/Widget.TipTime.CompoundButton.Switch"
         android:id="@+id/round_up_switch"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -113,6 +117,7 @@
         app:layout_constraintTop_toBottomOf="@+id/round_up_switch" />
 
     <TextView
+        style="@style/Widget.TipTime.TextView"
         android:id="@+id/tip_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
