@@ -1,0 +1,4 @@
+#Tue Jul 26 00:19:53 KST 2022
+base.0=C\:\\Users\\lee\\AndroidStudioProjects\\2022-07-04 Kotlin\\dessertclicker\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
