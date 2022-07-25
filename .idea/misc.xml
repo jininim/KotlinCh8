@@ -10,6 +10,12 @@
         <entry key="..\:/Users/lee/.gradle/caches/transforms-3/8a39463ca7a3527efd979299126c223b/transformed/appcompat-1.4.2/res/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml" value="0.283" />
         <entry key="..\:/Users/lee/.gradle/caches/transforms-3/8a39463ca7a3527efd979299126c223b/transformed/appcompat-1.4.2/res/drawable/abc_list_selector_holo_light.xml" value="0.283" />
         <entry key="..\:/Users/lee/.gradle/caches/transforms-3/8a39463ca7a3527efd979299126c223b/transformed/appcompat-1.4.2/res/drawable/abc_text_cursor_material.xml" value="0.283" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/Dogglers/src/main/res/layout/activity_grid_list.xml" value="0.1" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/Dogglers/src/main/res/layout/activity_horizontal_list.xml" value="0.22" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/Dogglers/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/Dogglers/src/main/res/layout/activity_vertical_list.xml" value="0.27314814814814814" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/Dogglers/src/main/res/layout/grid_list_item.xml" value="0.27314814814814814" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/Dogglers/src/main/res/layout/vertical_horizontal_list_item.xml" value="0.1" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsApp/src/main/res/drawable/ic_baseline_grid_on_24.xml" value="0.1" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsApp/src/main/res/drawable/ic_grid_layout.xml" value="0.1" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsApp/src/main/res/menu/layout_menu.xml" value="0.1" />
@@ -48,7 +54,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
