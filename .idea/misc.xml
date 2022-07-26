@@ -19,6 +19,11 @@
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsApp/src/main/res/drawable/ic_baseline_grid_on_24.xml" value="0.1" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsApp/src/main/res/drawable/ic_grid_layout.xml" value="0.1" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsApp/src/main/res/menu/layout_menu.xml" value="0.1" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsAppFragment/src/main/res/layout/activity_detail.xml" value="0.1" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsAppFragment/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsAppFragment/src/main/res/layout/fragment_letter_list.xml" value="0.1" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsAppFragment/src/main/res/layout/fragment_word_list.xml" value="0.1" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsAppFragment/src/main/res/menu/layout_menu.xml" value="0.26851851851851855" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/affirmations/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/affirmations/src/main/res/layout/activity_main.xml" value="0.18981481481481483" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/affirmations/src/main/res/layout/list_item.xml" value="0.1" />
@@ -54,7 +59,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
