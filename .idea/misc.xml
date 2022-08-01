@@ -23,6 +23,7 @@
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsAppFragment/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsAppFragment/src/main/res/layout/fragment_letter_list.xml" value="0.1" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsAppFragment/src/main/res/layout/fragment_word_list.xml" value="0.1" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsAppFragment/src/main/res/layout/item_view.xml" value="0.1" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/WordsAppFragment/src/main/res/menu/layout_menu.xml" value="0.26851851851851855" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/affirmations/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/affirmations/src/main/res/layout/activity_main.xml" value="0.18981481481481483" />
@@ -50,6 +51,7 @@
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/recyeclerview/src/main/res/layout/item_main.xml" value="0.33242753623188404" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/tablayout/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/tiptime/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/unscramble/src/main/res/layout/game_fragment.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/viewpager2/src/main/res/layout/activity_main.xml" value="0.33242753623188404" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/viewpager2/src/main/res/layout/fragment_one.xml" value="0.33242753623188404" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/2022-07-04 Kotlin/viewpager2/src/main/res/layout/fragment_three.xml" value="0.33242753623188404" />
