@@ -1,0 +1,4 @@
+#Wed Sep 21 14:09:43 KST 2022
+base.0=C\:\\Users\\lee\\AndroidStudioProjects\\2022-07-04 Kotlin\\ParksDataBase\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

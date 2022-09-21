@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <string name="app_name">SQL Basics</string>
+    <string name="instruction">The database is ready!\n\nUse the database inspector in Android Studio to run SQL commands.</string>
+    <style name="Theme.SQLBasics" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+    </style>
+</resources>
