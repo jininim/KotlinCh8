@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Dogglers" />
+            <option value="$PROJECT_DIR$/Happy Birthday" />
             <option value="$PROJECT_DIR$/MarsPhotos" />
             <option value="$PROJECT_DIR$/ParksDataBase" />
             <option value="$PROJECT_DIR$/Sports News" />
@@ -28,6 +29,7 @@
             <option value="$PROJECT_DIR$/diceroller" />
             <option value="$PROJECT_DIR$/diceroller2" />
             <option value="$PROJECT_DIR$/fragment" />
+            <option value="$PROJECT_DIR$/happybirthday_compose" />
             <option value="$PROJECT_DIR$/lunch_tray" />
             <option value="$PROJECT_DIR$/recyeclerview" />
             <option value="$PROJECT_DIR$/tablayout" />
