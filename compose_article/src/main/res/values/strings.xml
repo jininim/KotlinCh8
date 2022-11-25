@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Compose_article</string>
+    <string name="text1">Jetpack Compose tutorial</string>
+
+</resources>
