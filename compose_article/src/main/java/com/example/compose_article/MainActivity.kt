@@ -82,7 +82,7 @@ fun Greeting(text1 : String , text2: String) {
 //    }
 //}
 
-@Preview(showBackground = true)
+@Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun DefaultPreview() {
     Kotlin_0704Theme {
