@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -15,6 +16,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -40,6 +42,10 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+
+
+
 
 @Composable
 fun TopicGrid(modifier: Modifier = Modifier) {
@@ -74,7 +80,8 @@ fun CoursesCard(topic: Topic, modifier: Modifier = Modifier) {
                 modifier = Modifier
                     .width(68.dp)
                     .height(68.dp)
-                    .aspectRatio(1f),
+                    .aspectRatio(1f)
+                    .clip(RoundedCornerShape(50)),
                 contentScale = ContentScale.Crop
 
             )
