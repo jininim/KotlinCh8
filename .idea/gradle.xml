@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Dogglers" />
+            <option value="$PROJECT_DIR$/GuessTheWord" />
             <option value="$PROJECT_DIR$/Happy Birthday" />
             <option value="$PROJECT_DIR$/MarsPhotos" />
             <option value="$PROJECT_DIR$/ParksDataBase" />
@@ -18,6 +19,8 @@
             <option value="$PROJECT_DIR$/WordsApp" />
             <option value="$PROJECT_DIR$/WordsAppFragment" />
             <option value="$PROJECT_DIR$/affirmations" />
+            <option value="$PROJECT_DIR$/affirmations_compose" />
+            <option value="$PROJECT_DIR$/affirmations_compose2" />
             <option value="$PROJECT_DIR$/appbar" />
             <option value="$PROJECT_DIR$/busSchedule" />
             <option value="$PROJECT_DIR$/businesscard_compose" />
@@ -32,6 +35,7 @@
             <option value="$PROJECT_DIR$/diceroller2" />
             <option value="$PROJECT_DIR$/diceroller_compose" />
             <option value="$PROJECT_DIR$/fragment" />
+            <option value="$PROJECT_DIR$/guesstheword1" />
             <option value="$PROJECT_DIR$/happybirthday_compose" />
             <option value="$PROJECT_DIR$/lunch_tray" />
             <option value="$PROJECT_DIR$/recyeclerview" />
