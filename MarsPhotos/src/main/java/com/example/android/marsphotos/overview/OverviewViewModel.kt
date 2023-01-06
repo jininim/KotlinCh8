@@ -29,13 +29,18 @@ import kotlinx.coroutines.launch
  */
 class OverviewViewModel : ViewModel() {
 
+
     // The internal MutableLiveData that stores the status of the most recent request
     private val _status = MutableLiveData<String>()
+    val status: LiveData<String> = _status
     private val _photos = MutableLiveData<List<MarsPhoto>>()
+    val photos: LiveData<List<MarsPhoto>> = _photos
+
+
 
     // The external immutable LiveData for the request status
-    val status: LiveData<String> = _status
-    val photos: LiveData<List<MarsPhoto>> = _photos
+
+
     /**
      * Call getMarsPhotos() on init so we can display status immediately.
      */
