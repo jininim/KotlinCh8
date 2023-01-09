@@ -20,6 +20,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import com.example.lunchtray.databinding.ActivityMainBinding
 
+//aa
 class MainActivity : AppCompatActivity() {
 
     // Binding object instance corresponding to the activity_main.xml layout
