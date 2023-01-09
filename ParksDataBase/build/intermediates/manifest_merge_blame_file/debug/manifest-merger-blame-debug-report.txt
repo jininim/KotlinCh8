@@ -21,52 +21,86 @@
 21    <uses-sdk
 22        android:minSdkVersion="19"
 22-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml
-23        android:targetSdkVersion="31" />
+23        android:targetSdkVersion="33" />
 23-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml
 24
-25    <application
-25-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:19:5-33:19
-26        android:allowBackup="true"
-26-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:20:9-35
-27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.7.0] C:\Users\lee\.gradle\caches\transforms-3\910a690a10bf4570819103c030aa9f25\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-28        android:debuggable="true"
-29        android:icon="@mipmap/ic_launcher"
-29-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:21:9-43
-30        android:label="@string/app_name"
-30-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:22:9-41
-31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:23:9-54
-32        android:supportsRtl="true"
-32-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:24:9-35
-33        android:theme="@style/Theme.SQLBasics" >
-33-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:25:9-47
-34        <activity
-34-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:26:9-32:20
-35            android:name="com.example.sqlbasics.MainActivity"
-35-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:26:19-47
-36            android:exported="true" >
-36-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:27:13-36
-37            <intent-filter>
-37-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:28:13-31:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:29:17-69
-38-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:29:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:30:17-77
-40-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:30:27-74
-41            </intent-filter>
-42        </activity>
-43
-44        <service
-44-->[androidx.room:room-runtime:2.4.3] C:\Users\lee\.gradle\caches\transforms-3\ceaa6a6fc25cd5b9754d5704c283c376\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
-45            android:name="androidx.room.MultiInstanceInvalidationService"
-45-->[androidx.room:room-runtime:2.4.3] C:\Users\lee\.gradle\caches\transforms-3\ceaa6a6fc25cd5b9754d5704c283c376\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
-46            android:directBootAware="true"
-46-->[androidx.room:room-runtime:2.4.3] C:\Users\lee\.gradle\caches\transforms-3\ceaa6a6fc25cd5b9754d5704c283c376\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
-47            android:exported="false" />
-47-->[androidx.room:room-runtime:2.4.3] C:\Users\lee\.gradle\caches\transforms-3\ceaa6a6fc25cd5b9754d5704c283c376\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
-48    </application>
-49
-50</manifest>
+25    <permission
+25-->[androidx.core:core:1.9.0] C:\Users\lee\.gradle\caches\transforms-3\1b757132543eba7fd2ffb4d487bad448\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+26        android:name="com.example.sqlbasics.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.9.0] C:\Users\lee\.gradle\caches\transforms-3\1b757132543eba7fd2ffb4d487bad448\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.9.0] C:\Users\lee\.gradle\caches\transforms-3\1b757132543eba7fd2ffb4d487bad448\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.example.sqlbasics.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.9.0] C:\Users\lee\.gradle\caches\transforms-3\1b757132543eba7fd2ffb4d487bad448\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.9.0] C:\Users\lee\.gradle\caches\transforms-3\1b757132543eba7fd2ffb4d487bad448\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:19:5-33:19
+32        android:allowBackup="true"
+32-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:20:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.9.0] C:\Users\lee\.gradle\caches\transforms-3\1b757132543eba7fd2ffb4d487bad448\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:21:9-43
+36        android:label="@string/app_name"
+36-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:22:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:23:9-54
+38        android:supportsRtl="true"
+38-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:24:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.SQLBasics" >
+40-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:25:9-47
+41        <activity
+41-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:26:9-32:20
+42            android:name="com.example.sqlbasics.MainActivity"
+42-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:26:19-47
+43            android:exported="true" >
+43-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:27:13-36
+44            <intent-filter>
+44-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:28:13-31:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:29:17-69
+45-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:29:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:30:17-77
+47-->C:\Users\lee\AndroidStudioProjects\2022-07-04 Kotlin\ParksDataBase\src\main\AndroidManifest.xml:30:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <service
+51-->[androidx.room:room-runtime:2.4.3] C:\Users\lee\.gradle\caches\transforms-3\1d0ac324e392fb22c12a078341f2e8a2\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+52            android:name="androidx.room.MultiInstanceInvalidationService"
+52-->[androidx.room:room-runtime:2.4.3] C:\Users\lee\.gradle\caches\transforms-3\1d0ac324e392fb22c12a078341f2e8a2\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+53            android:directBootAware="true"
+53-->[androidx.room:room-runtime:2.4.3] C:\Users\lee\.gradle\caches\transforms-3\1d0ac324e392fb22c12a078341f2e8a2\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+54            android:exported="false" />
+54-->[androidx.room:room-runtime:2.4.3] C:\Users\lee\.gradle\caches\transforms-3\1d0ac324e392fb22c12a078341f2e8a2\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lee\.gradle\caches\transforms-3\af7243522921634d03b079e7af80d28b\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lee\.gradle\caches\transforms-3\af7243522921634d03b079e7af80d28b\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+58            android:authorities="com.example.sqlbasics.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lee\.gradle\caches\transforms-3\af7243522921634d03b079e7af80d28b\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lee\.gradle\caches\transforms-3\af7243522921634d03b079e7af80d28b\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lee\.gradle\caches\transforms-3\af7243522921634d03b079e7af80d28b\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lee\.gradle\caches\transforms-3\af7243522921634d03b079e7af80d28b\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lee\.gradle\caches\transforms-3\af7243522921634d03b079e7af80d28b\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lee\.gradle\caches\transforms-3\750e159bc7b9b2db1c88cbb40402677a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lee\.gradle\caches\transforms-3\750e159bc7b9b2db1c88cbb40402677a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lee\.gradle\caches\transforms-3\750e159bc7b9b2db1c88cbb40402677a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+66        </provider>
+67    </application>
+68
+69</manifest>
