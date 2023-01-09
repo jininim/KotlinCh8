@@ -31,6 +31,7 @@ import com.example.wordsapp.databinding.ActivityMainBinding
 /**
  * Main Activity and entry point for the app. Displays a RecyclerView of letters.
  */
+//ㅁㄴㅇㅁㄴ
 class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
 
